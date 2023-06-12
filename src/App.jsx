@@ -2,14 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/Header'
+import { ProvideAuth } from './context/ProvideAuth'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      Solution provider
-    </>
+    <ProvideAuth>
+      <Header title="service provider" />
+    </ProvideAuth>
   )
 }
 
