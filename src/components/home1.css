@@ -1,7 +1,17 @@
 .heading{
-    text-align: center;
-    margin-top: 10px;
-    font-weight: bolder;
+    font-weight: 900;
+    font-size: 62px;
+    color: #201F1D;
+}
+.heading span{
+  color: rgb(113 , 0 , 255);
+}
+
+p{
+  margin: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #787878;
 }
 
 form {
@@ -65,4 +75,16 @@ form {
 .post{
   display: flex;
   flex-wrap: wrap;
+}
+
+.header-banner{
+  position: relative;
+  background-image: url(./banner.jpeg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  padding: 100px 0 100px;
+}
+.office-img{
+  width: 100%;
 }

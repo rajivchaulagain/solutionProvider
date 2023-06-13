@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    /* font-family: 'Fira Sans', sans-serif !important; */
+}
+
+.btn.btn-primary {
+    font-weight: 500;
+    font-size: 16px;
+    color: #201F1D;
+    border: 2px solid #201F1D;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-radius: 5px;
+    line-height: 0;
+    margin: 0;
+    padding: 15px 22px;
+}
