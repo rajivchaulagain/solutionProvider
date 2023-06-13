@@ -1,0 +1,68 @@
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+form {
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    line-height: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.custom-file-input {
+    display: none;
+  }
+  
+  .custom-file-label {
+    background-color: aqua;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .custom-file-input:focus + .custom-file-label {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  input[type="text"]{
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  button[type="submit"]{
+    border: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;    
+  }
+.postbox{
+    margin-left: 90px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.cap{
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.post {
+    margin-left: 90px;
+}
+
+.headPost{
+    margin-left: 90px;
+}
+
+
+.post{
+  display: flex;
+  flex-wrap: wrap;
+}

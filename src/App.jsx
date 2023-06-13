@@ -1,18 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './components/Header'
-import { ProvideAuth } from './context/ProvideAuth'
+import { useState } from "react";
+import "./App.css";
+import { NavBar } from "./components/NavBar";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Home1 } from "./components/Home1";
+import { List } from "./components/List";
+import { Blog } from "./components/Blog";
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)h
 
   return (
-    <ProvideAuth>
-      <Header title="service provider" />
-    </ProvideAuth>
-  )
+    <div>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route exact path="/Home1" Component={Home1} />
+          <Route exact path="/List"  Component={List} />
+          <Route exact path="/Blog"  Component={Blog} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
-export default App
+export default App;
