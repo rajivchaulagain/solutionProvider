@@ -1,101 +1,74 @@
-import React, { useState } from 'react';
-import './home1.css';
-import headerImg from './office1.png'
+import React from 'react'
+import headImg from './banner.jpeg'
+import './home1.css'
+import { Footer } from './Footer'
 
 export const Home1 = () => {
-  const [posts, setPosts] = useState([]);
-  const [image, setImage] = useState(null);
-  const [caption, setCaption] = useState('');
-
-  const handleImageChange = (event) => {
-    const file = event.target.files[0];
-    setImage(file);
-  };
-
-  const handleCaptionChange = (event) => {
-    setCaption(event.target.value);
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-
-    // Create a new post object
-    const newPost = {
-      image,
-      caption,
-    };
-
-    // Update the state with the new post
-    setPosts((prevPosts) => [...prevPosts, newPost]);
-
-    // Clear the input fields
-    setImage(null);
-    setCaption('');
-  };
-
   return (
-    <div className='header-banner'>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-6'>
-      <h1 className="heading">Find Services
+    <div className='container'>
+
+      {/*main page  */} 
+
+      <div className="img">
+        <img src={headImg} alt="" />
+        <p className='text'>Find Perfect Solution for Your problem</p>
+       <div className="btn">
+       <button className='button'>View &nbsp;  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+       </div>
+      </div>
+
+    <div className="detailBox">
+    <div className="locationBox">
+      <label htmlFor="">Location</label>
       <br />
-        <span>
-          Post your Problem
-          </span>
-      </h1>
-      <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-      </p>
-      <button className='btn btn-primary mx-4'>Visit services
-      <i class="fa-solid fa-arrow-right ms-2"></i>
-            </button>
-      <div className="post">
-        {/* <div className="form">
-          <form onSubmit={handleSubmit}>
-            <div>
-              <label htmlFor="image" className="custom-file-label">
-                Image
-              </label>
-              <input
-                type="file"
-                id="image"
-                accept="image/*"
-                onChange={handleImageChange}
-                className="custom-file-input"
-              />
-            </div>
-            <br />
-            <div>
-              <label htmlFor="caption">Caption:</label>
-              <input
-                type="text"
-                id="caption"
-                value={caption}
-                onChange={handleCaptionChange}
-              />
-            </div>
-            <br />
-            <button type="submit">Upload</button>
-          </form>
-        </div> */}
-        {posts.map((post, index) => (
-          <div className="postbox" key={index}>
-            <img
-              src={URL.createObjectURL(post.image)}
-              alt="Uploaded"
-              style={{ maxWidth: '300px' }}
-            />
-            <p className="cap">Problem: {post.caption}</p>
-          </div>
-        ))}
-      </div>
-          </div>
-          <div className='col-6'>
-          <img src={headerImg} className='office-img' />
-          </div>
-        </div>
-      </div>
+      <select name="" id="" required>
+        <option value="">Choose</option>
+        <option value="">Kathmandu</option>
+        <option value="">Dharan</option>
+        <option value="">Hetauda</option>
+        <option value="">KakkarVitta</option>
+        <option value="">Bhojpur</option>
+      </select>
     </div>
-  );
-};
+
+    <div className="serviceBox">
+      <label htmlFor="">service</label>
+      <br />
+      <select name="" id="" required>
+      <option value="">Choose</option>
+      <option value="">Laptop</option>
+      <option value="">Car</option>
+      <option value="">Mobile</option>
+      </select>
+    </div>
+
+
+    
+<div className="priceBox">
+  <label htmlFor="">Price Range</label>
+  <br />
+  <select name="" id="" required>
+    <option value="">choose</option>
+    <option value="">10,000</option>
+    <option value="">20,000</option>
+    <option value="">30,000</option>
+    <option value="">40,000</option>
+  </select>
+</div>
+    </div>
+
+
+
+
+      {/*poster section */}
+
+      <div className="poster">
+        <img src="https://media.discordapp.net/attachments/1117812209981083761/1118217992010989728/mobile_app_coming_soon_500_hight.jpg?width=960&height=374" alt="" />
+      </div>
+
+{/*footer */}
+<Footer/>
+
+    </div>
+  )
+}

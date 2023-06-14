@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.container{
+  margin: 0;
+}
+
+
 .heading{
     font-weight: 900;
     font-size: 62px;
@@ -87,4 +95,53 @@ form {
 }
 .office-img{
   width: 100%;
+}
+
+
+/*main page css*/
+
+.img > img{
+  width: 1450px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.img{
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 50px;
+
+font-weight: bolder;
+}
+
+.button {
+  position: absolute;
+  bottom: 220px;
+  left: 26%;
+  padding: 5px;
+  width: 12%;
+  height: 10%;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.button:hover{
+  background-color: #fa9107;
+}
+
+
+.poster > img {
+  width: 1470px;
+  border-radius: 10px;
+  height: 500px;
 }

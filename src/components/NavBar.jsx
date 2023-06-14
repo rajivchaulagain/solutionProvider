@@ -32,7 +32,7 @@ export const NavBar = () => {
                 <Link className="nav-link " to="/Blog">Contact</Link>
               </li>
             </ul>
-            <div>
+            <div className='signBtn'>
               <button className='sign-in'>
               <i className="fa-regular fa-user me-2">
                   </i>

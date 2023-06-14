@@ -13,6 +13,7 @@ function App() {
     <div>
       <Router>
         <NavBar />
+   
         <Routes>
           <Route exact path="/Home1" Component={Home1} />
           <Route exact path="/List"  Component={List} />

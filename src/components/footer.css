@@ -1,0 +1,39 @@
+.footer{
+    background-color: red;
+    padding: 20px;
+    width: 112%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: #111111;
+}
+.footer > .footerdetail > img {
+    width: 200px;
+}
+
+.footerdetail {
+    display: flex;
+    margin-left: 50px;
+}
+
+.footerdetail > .top >  h6 {
+    margin-left: 200px;
+    margin-top: 90px;
+    display: flex;
+}
+.top{
+    display: flex;
+    color: white;
+    font-size: 5rem;
+}
+
+hr{
+    color: white;
+}
+
+.icon {
+    display: flex;
+    margin-left: 500px;
+}
