@@ -1,8 +1,12 @@
+.mainFooter{
+    margin: 0;
+}
+
 .footer{
     background-color: red;
     padding: 20px;
-    width: 112%;
-    margin-left: 20px;
+    width: 1330px;
+    /* margin-left: 20px; */
     margin-top: 20px;
 }
 

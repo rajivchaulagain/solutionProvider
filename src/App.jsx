@@ -10,7 +10,7 @@ function App() {
   // const [count, setCount] = useState(0)h
 
   return (
-    <div>
+    <div className="app">
       <Router>
         <NavBar />
    

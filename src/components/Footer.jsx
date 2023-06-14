@@ -3,7 +3,7 @@ import './footer.css'
 
 export const Footer = () => {
   return (
-    <div>
+    <div className='mainFooter'>
 <div className="footer">
 <div className="footerdetail">
 <img src="https://cdn.discordapp.com/attachments/1117812209981083761/1118160466645098559/service_chiyo_logo_png_1.png" alt="" />

@@ -5,10 +5,10 @@ import pic from './logo.png'
 
 export const NavBar = () => {
   return (
-    <div>
+    <div className='contain'>
 
 <nav className="navbar navbar-expand-lg">
-        <div className="container">
+     
           <a className="navbar-brand" href="#">
             <img src={pic} alt=""/>
             </a>
@@ -45,7 +45,7 @@ export const NavBar = () => {
                    </button>
             </div>
           </div>
-        </div>
+     
       </nav>
 
 

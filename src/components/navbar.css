@@ -1,14 +1,9 @@
 :root{
     --primary : rgb(113 , 0 , 255)
 }
-*{
-    margin: 0;
-    padding: 0;
-}
 
-.navbar{
-    margin-left: 90px;
-}
+
+
 
 .navbar-brand > img {
     height: 60px;
@@ -63,31 +58,5 @@ font-weight: bolder;
     font-size: 16px;
     padding: 10px 20px;
     margin: 0 1rem;
-}
-
-.detailBox{
-    display: flex;
-    border: 1px solid black;
-    border-radius: 10px;
-     position: absolute;
-    background: lightgray;
-    height: 60px;  
-    width: 70%;
-   left: 160px;
-    top: 642px;
-    padding: 10px;
-    justify-content: space-around;
-    height: 100px;
-    background-color: #fa9107;
-    border: none;
-}
-
-.poster{
-    margin-top: 90px;
-    margin-left: 10px;
-}
-
-.detailBox > div {
-    margin-top: 15px;
 }
 

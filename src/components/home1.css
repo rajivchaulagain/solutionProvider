@@ -101,9 +101,10 @@ form {
 /*main page css*/
 
 .img > img{
-  width: 1450px;
+  width: 1300px;
   border-radius: 20px;
   margin-left: 5px;
+  object-fit: contain;
 }
 
 .img{
@@ -116,7 +117,7 @@ form {
 .text {
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 32%;
   transform: translate(-50%, -50%);
   color: black;
   font-size: 50px;
@@ -126,7 +127,7 @@ font-weight: bolder;
 
 .button {
   position: absolute;
-  bottom: 220px;
+  bottom: 200px;
   left: 26%;
   padding: 5px;
   width: 12%;
@@ -141,7 +142,43 @@ font-weight: bolder;
 
 
 .poster > img {
-  width: 1470px;
+  width: 1300px;
   border-radius: 10px;
   height: 500px;
+}
+
+.detailBox{
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+   position: absolute;
+  background: lightgray;
+  height: 60px;  
+  width: 70%;
+ left: 160px;
+  top: 550px;
+  padding: 10px;
+  justify-content: space-around;
+  height: 100px;
+  background-color: #fa9107;
+  border: none;
+}
+
+.poster{
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+.detailBox > div {
+  margin-top: 15px;
+}
+
+
+select {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+label{
+  font-weight: 500;
 }
