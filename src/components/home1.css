@@ -102,7 +102,7 @@ form {
 /*main page css*/
 
 .img > img{
-  width: 1450px;
+  width: 1300px;
   border-radius: 20px;
   margin-left: 5px;
   object-fit: contain;
@@ -131,7 +131,7 @@ font-weight: bolder;
 
 .button {
   position: absolute;
-  bottom: 250px;
+  bottom: 220px;
   left: 28%;
   padding: 15px;
   width: 12%;
@@ -152,7 +152,7 @@ font-weight: bolder;
 
 
 .poster > img {
-  width: 1450px;
+  width: 1300px;
   border-radius: 10px;
   height: 500px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -167,7 +167,7 @@ font-weight: bolder;
   height: 60px;  
   width: 70%;
  left: 200px;
-  top: 610px;
+  top: 560px;
   padding: 10px;
   justify-content: space-around;
   height: 100px;
@@ -195,3 +195,11 @@ label{
   font-weight: 500;
 }
 
+.img > .office {
+  width: 500px;
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  box-shadow: none;
+}

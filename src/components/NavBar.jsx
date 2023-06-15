@@ -2,7 +2,7 @@ import React from 'react'
 import './navbar.css'
 import { Link } from 'react-router-dom'
 import pic from './logo.png'
-// import { SignUpForm } from './SignUpForm'
+import { Home1 } from './Home1'
 
 export const NavBar = () => {
   return (
@@ -19,7 +19,7 @@ export const NavBar = () => {
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
            <div className="homme">
-           <Link className="nav-link " id='home' aria-current="page" to="/Home1">Home</Link>
+           <Link className="nav-link " id='home' aria-current="page" to="/">Home</Link>
            </div>
               </li>
               <li className="nav-item">
@@ -50,7 +50,7 @@ export const NavBar = () => {
 
 
 
-
+{/* <Home1/> */}
 
 
 

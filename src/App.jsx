@@ -16,7 +16,7 @@ function App() {
         <NavBar />
    
         <Routes>
-          <Route exact path="/Home1" Component={Home1} />
+          <Route exact path="/" Component={Home1} />
           <Route exact path="/List"  Component={List} />
           <Route exact path="/Blog"  Component={Blog} />
           <Route exact path="/SignUp"  Component={SignUpForm} />

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './SignUpForm.css'
 
 export const SignUpForm = () => {
 const [showUserForm , setShowUserForm]= useState(false);
@@ -22,8 +23,16 @@ const handleFormSubmit =(event)=> {
 
   return (
     <div>
-<button onClick={handleUserClick} >User</button>
-<button onClick={handleSupplierClick} >Service Provider</button>
+        
+    <h1 className='FormHead'>Choose How you want to Sign Up</h1>
+<div className="btn3">
+<button className='btn1' onClick={handleUserClick} >User</button>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<button className='btn2' onClick={handleSupplierClick} >Service Provider</button>
+</div>
 
 
 {showUserForm && (
@@ -46,17 +55,19 @@ const handleFormSubmit =(event)=> {
 
 {showSupplierForm && (
     <form onSubmit={handleFormSubmit}>
-        <label>
+        <label className='name'>
             Pin: 
             <input type="number" name='number'/>
         </label>
         <br />
-        <labe>
+        <label>
             Email: 
             <input type="email" name='email' />
-        </labe>
+        </label>
         <br />
-        <label>
+        <br />
+        <br />
+        <label className='name'>
             password: 
             <input type="password" name='password' />
         </label>

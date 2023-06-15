@@ -3,6 +3,7 @@ import headImg from './banner.jpeg'
 import './home1.css'
 import { Footer } from './Footer'
 import { Link } from 'react-router-dom'
+import office1 from './office1.png'
 
 export const Home1 = () => {
   return (
@@ -11,11 +12,14 @@ export const Home1 = () => {
       {/*main page  */} 
 
       <div className="img">
+      <img className='office' src={office1} alt="" />
         <img src={headImg} alt="" />
         <p className='text'>Find Perfect Solution for Your problem</p>
        <div className="btn">
        <Link className='button' to='/List' >View &nbsp;  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
        </div>
+
+       {/* <img src={office1} alt="" /> */}
       </div>
 
     <div className="detailBox">
