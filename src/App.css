@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
-.app{
-    margin: 0;
-    padding: 0;
-}
 
 
 .btn.btn-primary {
@@ -18,3 +14,4 @@
     margin: 0;
     padding: 15px 22px;
 }
+

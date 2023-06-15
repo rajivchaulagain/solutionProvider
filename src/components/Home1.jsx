@@ -2,6 +2,7 @@ import React from 'react'
 import headImg from './banner.jpeg'
 import './home1.css'
 import { Footer } from './Footer'
+import { Link } from 'react-router-dom'
 
 export const Home1 = () => {
   return (
@@ -13,7 +14,7 @@ export const Home1 = () => {
         <img src={headImg} alt="" />
         <p className='text'>Find Perfect Solution for Your problem</p>
        <div className="btn">
-       <button className='button'>View &nbsp;  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+       <Link className='button' to='/List' >View &nbsp;  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
        </div>
       </div>
 

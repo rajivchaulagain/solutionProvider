@@ -2,13 +2,13 @@ import React from 'react'
 import './navbar.css'
 import { Link } from 'react-router-dom'
 import pic from './logo.png'
+// import { SignUpForm } from './SignUpForm'
 
 export const NavBar = () => {
   return (
     <div className='contain'>
 
 <nav className="navbar navbar-expand-lg">
-     
           <a className="navbar-brand" href="#">
             <img src={pic} alt=""/>
             </a>
@@ -38,11 +38,11 @@ export const NavBar = () => {
                   </i>
                 Sign In
                 </button>
-              <button className='sign-up'>
+              <Link to='/SignUp' className='sign-up'>
                 <i className="fa-solid fa-lock me-2">
                   </i>
                    Sign Up
-                   </button>
+                   </Link>
             </div>
           </div>
      

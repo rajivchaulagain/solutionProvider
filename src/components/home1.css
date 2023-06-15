@@ -3,6 +3,7 @@
 
 .container{
   margin: 0;
+  padding: 0;
 }
 
 
@@ -101,10 +102,11 @@ form {
 /*main page css*/
 
 .img > img{
-  width: 1300px;
+  width: 1450px;
   border-radius: 20px;
   margin-left: 5px;
   object-fit: contain;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .img{
@@ -112,6 +114,8 @@ form {
   position: relative;
   text-align: center;
   color: black;
+  margin-left: 20px;
+
 }
 
 .text {
@@ -127,24 +131,31 @@ font-weight: bolder;
 
 .button {
   position: absolute;
-  bottom: 200px;
-  left: 26%;
-  padding: 5px;
+  bottom: 250px;
+  left: 28%;
+  padding: 15px;
   width: 12%;
   height: 10%;
   font-weight: 500;
   border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
 }
 
 .button:hover{
   background-color: #fa9107;
 }
+.btn{
+  text-align: center;
+}
 
 
 .poster > img {
-  width: 1300px;
+  width: 1450px;
   border-radius: 10px;
   height: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .detailBox{
@@ -155,18 +166,19 @@ font-weight: bolder;
   background: lightgray;
   height: 60px;  
   width: 70%;
- left: 160px;
-  top: 550px;
+ left: 200px;
+  top: 610px;
   padding: 10px;
   justify-content: space-around;
   height: 100px;
   background-color: #fa9107;
   border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .poster{
   margin-top: 90px;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .detailBox > div {
@@ -182,3 +194,4 @@ select {
 label{
   font-weight: 500;
 }
+
