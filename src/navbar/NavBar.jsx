@@ -1,8 +1,8 @@
 import React from 'react'
 import './navbar.css'
 import { Link } from 'react-router-dom'
-import pic from './logo.png'
-import { Home1 } from './Home1'
+import pic from '../image/logo.png'
+
 
 export const NavBar = () => {
   return (

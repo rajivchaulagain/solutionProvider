@@ -1,9 +1,9 @@
 import React from 'react'
-import headImg from './banner.jpeg'
+import headImg from '../image/banner.jpeg'
 import './home1.css'
-import { Footer } from './Footer'
+import { Footer } from '../footer/Footer'
 import { Link } from 'react-router-dom'
-import office1 from './office1.png'
+import office1 from '../image/office1.png'
 
 export const Home1 = () => {
   return (
