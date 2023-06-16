@@ -5,17 +5,56 @@
 .btn3 {
     margin-top: 30px;
 }
-
-.FormHead {
-    text-align: center;
-}
-
 form {
     margin-left: 500px;
     margin-top: 90px;
 }
 
+.formLabel{
+    font-size: 20px;
+}
+
+.formLabel > input {
+    padding: 10px;
+}
+
+
+.formMain{
+    border: 1px solid black;
+    width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f2f2f2;
+
+}
+
+form {
+    border: none;
+    line-height: 20px;
+}
+
+.submit1 {
+    margin-top: 20px;
+}
+
+
+/* second form */
+
+.secondForm{
+    border: 1px solid black;
+    padding: 60px;
+    width: 350px;
+}
 
 .name{
-    font-size: 90px;
+    font-size: 20px;
+}
+
+
+.btn2{
+    margin-top: 20px;
+}
+
+.FormHead{
+    text-align: center;
 }
